@@ -6,8 +6,8 @@ This project implements a 2D Transmission Line Matrix (TLM) method to simulate e
 - GPU-accelerated 2D TLM solver
 - Source injection and output sampling
 - Boundary reflections with configurable coefficients
-- Efficient memory management and synchronization
-- Time-domain simulation with customizable steps
+- Efficient memory management and synchronisation
+- Time-domain simulation with customisable steps
 - Outputs waveforms in a plain text file
 
 ## File Structure
@@ -15,12 +15,12 @@ This project implements a 2D Transmission Line Matrix (TLM) method to simulate e
 - `outputCu.out`: Output file containing time and voltage values at a specific mesh point
 
 ## Physics Behind the Code
-The code models a 2D grid where each node exchanges voltage/current information with its neighbors via TLM scattering and connection processes. The wave is injected using a Gaussian pulse and propagates across the mesh while obeying Maxwell’s equations in a discretized form.
+The code models a 2D grid where each node exchanges voltage/current information with its neighbors via TLM scattering and connection processes. The wave is injected using a Gaussian pulse and propagates across the mesh while obeying Maxwell’s equations in a discretised form.
 
 ## How It Works
 
 1. **Initialisation**: 
-   - A 2D mesh of nodes is created and initialized to zero.
+   - A 2D mesh of nodes is created and initialised to zero.
    - Voltage components (`V1`, `V2`, `V3`, `V4`) are stored in flattened arrays.
 
 2. **Time-Stepping Loop**:
