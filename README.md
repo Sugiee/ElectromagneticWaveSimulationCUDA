@@ -1,6 +1,7 @@
 # CUDA-Based Electromagnetic Wave Simulation
 
-![V1 Distributions at Different Time Steps, meshSize=200, Ein= 10,10  - (CPU)](https://github.com/user-attachments/assets/6c681e92-65a3-4f84-a28d-03e6b94d71e4)
+![V1 Distributions at Different Time Steps, meshSize=200, Ein= 10,10  - (GPU)](https://github.com/user-attachments/assets/fc3353d1-6056-46d9-ac10-b6a81d6ace4b)
+
 This project implements a 2D Transmission Line Matrix (TLM) method to simulate electromagnetic wave propagation using CUDA for parallelisation. The simulation is based on finite-difference techniques, enabling high-performance modeling on GPU devices.
 
 ## Features
